@@ -17,16 +17,22 @@ public class Main {
         // - Fordítsd meg az elemek sorrendjét a `numbers` tömbben
         // - Írasd ki a konzolra a `numbers` tömb megfordított sorrendű elemeit
 
-                for (int i = numbers.length - 1; i >= 0 ; i--) {
-                    System.out.println(numbers[i]);
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            //           System.out.println(numbers[i]);
         }
+        greetFunction();
+        baseNum();
+    }
 
+    public static void greetFunction() {
+        System.out.println("Hello");
+    }
 
-
-
-
-
-
+    public static void baseNum() {
+        int a = 123;
+        System.out.println(a * 2);
+        return;
 
     }
+
 }
