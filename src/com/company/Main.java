@@ -21,17 +21,17 @@ public class Main {
             //           System.out.println(numbers[i]);
         }
         greetFunction();
-        baseNum();
+        System.out.println(baseNum());
     }
 
     public static void greetFunction() {
         System.out.println("Hello");
     }
 
-    public static void baseNum() {
+    public static int baseNum() {
         int a = 123;
-        System.out.println(a * 2);
-        return;
+        int multiply = a * 2;
+        return multiply;
 
     }
 
